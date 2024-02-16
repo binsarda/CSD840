@@ -4,4 +4,3 @@ pandas
 seaborn 
 streamlit 
 plotly
-base64
