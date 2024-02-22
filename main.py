@@ -85,7 +85,7 @@ with tabs[1]:
              "opening. Their opening creates a path for airflow to take place. As air flows between the vocal folds, static pressure working "
              "on the vocal folds decrease due to formation of dynamic pressure according to Bernoulli's principle. This reduction in static "
              "pressure along with the elastic recoil force brings the vocal folds close to each other again. So, they become closed again. "
-             "That is how a glottal cycle is cmpleted. After they are in contact with each other, they start moves away from each other "
+             "That is how a glottal cycle is completed. After they are in contact with each other, they start moves away from each other "
              "again due to build up of air pressure in lungs. So, glottal cycles are repeated. ")
 
     st.markdown("## :violet[Detailed Modelling]")
