@@ -58,35 +58,35 @@ with tabs[0]:
         st.write("Sardar is driven by a thirst for knowledge and has a spirit of exploration. "
                  "He focused on the captivating domain of high-speed aerodynamics during his undergraduate "
                  "studies in mechanical engineering. Currently, he is pursuing "
-                 "a Ph.D. in mechanical engineering and planning to do a dual"
+                 "a Ph.D. in mechanical engineering and planning to do a dual "
                  " degree with the department of communicative sciences and "
-                 "disorders. He aims to learn about the intricate aspects of"
-                 "human communication and contribute to advancements in voice science."
+                 "disorders. He aims to learn about the intricate aspects of "
+                 "human communication and contribute to advancements in voice science. "
                  " Apart from his academic pursuits, he finds solace in traveling, "
                  "embracing diverse cultures, and capturing the world's beauty through "
                  "his experiences. Sardar actively engages in initiatives "
                  "promoting sustainability and environmental conservation. "
                  "With an unquenchable curiosity and unwavering dedication, "
-                 "he continues to make a meaningful impact in his chosen fields and beyond.")
+                 "he continues to make a meaningful impact in his chosen fields and beyond. ")
 
     st.markdown("# :red[Objective]")
-    st.write("In this website, a tool is presented to simulate vocal fold motion. Two opposing vocal folds are modelled with one mass"
-             "for each vocal fold. Their visco elastic properties are modelled with spring and damper. There are several options available"
+    st.write("In this website, a tool is presented to simulate vocal fold motion. Two opposing vocal folds are modelled with one mass "
+             "for each vocal fold. Their visco elastic properties are modelled with spring and damper. There are several options available "
              "for changing various parameters. By using the model, effect of various different parameters on vocal fold motion can be "
-             "observed. It can be used as a research tool for studying voice disorders."
+             "observed. It can be used as a research tool for studying voice disorders. "
              )
 
 with tabs[1]:
     st.markdown("# :violet[Modelling Framework]")
-    st.write("Vocal folds are modelled with lumped elements. Two opposing vocal folds are modelled. Each vocal fold is modelled with"
+    st.write("Vocal folds are modelled with lumped elements. Two opposing vocal folds are modelled. Each vocal fold is modelled with "
              "single mass-spring-damper system. The working principle aligns with myoelastic aerodynamic theory of phonation. Initially "
-             "the vocal folds are in contact with each other. Air cannot escape from lungs in this situation. Air pressure builds up"
-             "in the lungs. This build up of air pressure moves the vocal folds apart from each other. As a result, vocal folds starts"
-             "opening. Their opening creates a path for airflow to take place. As air flows between the vocal folds, static pressure working"
-             "on the vocal folds decrease due to formation of dynamic pressure according to Bernoulli's principle. This reduction in static"
-             "pressure along with the elastic recoil force brings the vocal folds close to each other again. So, they become closed again."
+             "the vocal folds are in contact with each other. Air cannot escape from lungs in this situation. Air pressure builds up "
+             "in the lungs. This build up of air pressure moves the vocal folds apart from each other. As a result, vocal folds starts "
+             "opening. Their opening creates a path for airflow to take place. As air flows between the vocal folds, static pressure working "
+             "on the vocal folds decrease due to formation of dynamic pressure according to Bernoulli's principle. This reduction in static "
+             "pressure along with the elastic recoil force brings the vocal folds close to each other again. So, they become closed again. "
              "That is how a glottal cycle is cmpleted. After they are in contact with each other, they start moves away from each other "
-             "again due to build up of air pressure in lungs. So, glottal cycles are repeated.")
+             "again due to build up of air pressure in lungs. So, glottal cycles are repeated. ")
 
     st.markdown("## :violet[Detailed Modelling]")
 
